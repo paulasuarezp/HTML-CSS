@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+   
+    <meta charset="UTF-8" >
+
+    <meta name ="author" content ="Paula Suárez Prieto" >
+    <meta name ="description" content ="Ventajas e inconvenientes de la utilización del framework Bootstrap" >
+    <meta name ="keywords" content ="Bootstrap, css, estilo, html, web, diseño, JS, javascript, ventajas, inconvenientes" >
+
+  
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" >
+
+    <title>Bootstrap - Ventajas y desventajas</title>  
+    
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" >
+
+</head>
+
+<body>
+    <nav>
+        <a title="Inicio" accesskey="I" tabindex="1" href= "index.html">Inicio</a>
+        <a title="Historia y versiones" accesskey="H" tabindex="2" href= "historia.html">Historia y versiones</a>
+        <a title="Contenido" accesskey="C" tabindex="3" href= "contenido.html">Contenido</a>
+        <a title="Ventajas y desventajas" accesskey="V" tabindex="4" href= "ventajasDesventajas.html">Ventajas y desventajas</a>
+    </nav>
+   
+    <h1>Ventajas y desventajas de usar Bootstrap</h1>
+
+    <h2>¿Por qué usar Bootstrap?</h2>
+    <ul>
+        <li>
+            Facilidad de uso. Sus archivos están compilados para facilitar el acceso y sólo se requieren conocimientos básicos de HTML, CSS y JS para modificarlos.
+        </li>
+        <li>
+            Rejilla responsible. Bootstrap viene con un sistema de rejilla predefinido, lo que te ahorra crear uno desde cero.
+        </li>
+        <li>
+            Compatibilidad con los navegadores. Hacer que tu sitio web sea accesible a través de diferentes navegadores ayuda a reducir la tasa de rebote y a posicionarse mejor en los resultados de búsqueda.
+        </li>
+        <li>
+            Sistema de imágenes de Bootstrap. Bootstrap gestiona la visualización de imágenes y la capacidad de respuesta con sus reglas HTML y CSS predefinidas.
+        </li>
+        <li>
+            Documentación de Bootstrap. Bootstrap proporciona documentación para los desarrolladores que quieran aprender a utilizar este framework por primera vez. 
+            La documentación también incluye ejemplos de código para las prácticas básicas.
+        </li>
+    </ul>
+    
+    <h2>¿Por qué no usar Bootstrap?</h2>
+    <ul>
+        <li>Fuerte personalización. De lo contrario, todos los sitios web construidos con este framework tendrán los mismos componentes de navegación, estructura y diseño, lo que les dará un aspecto poco profesional.</li>
+        <li>Ancho de banda. El hecho de tener un gran número de funciones implica que los archivos son de gran tamaño. El uso de Bootstrap en tu proyecto puede ralentizar el tiempo de carga del sitio web y sobrecargar tu servidor.</li>
+        <li>Compatibilidad con los navegadores. Aunque Bootstrap es compatible con la última versión de los navegadores más populares, no ocurre 
+            lo mismo con las versiones más antiguas. Esto significa que el aspecto de tu sitio web dependerá totalmente de la voluntad de los usuarios de actualizar sus navegadores.</li>
+        <li>Ensucia el código. Se usan etiquetas con demasiadas clases o con clases que no son semánticas, lo que complica la legibilidad.</li>
+        <li>Curva de aprendizaje. Aunque es fácil de usar, Bootstrap tiene una pequeña curva de aprendizaje al principio. Se necesita tiempo 
+            para aprender las clases y componentes disponibles, lo que puede resultar complicado para alguien sin conocimientos técnicos.</li>
+    </ul>
+   
+    <h3>Conclusión</h3>
+    <p>
+        Bootstrap es un framework front-end popular entre los desarrolladores hoy. Es fácil de usar y ahorra a los desarrolladores tener que escribir código HTML, CSS y JavaScript manualmente.
+    </p>
+    <p>
+        El framework es muy flexible y puede adaptarse a casi todas las necesidades de desarrollo web front-end. Su mejor característica es las plantillas de diseño que hacen que las páginas web funcionen de forma óptima en todos los tamaños de pantalla.
+    </p>
+    <p>
+        A pesar de tener una ligera curva de aprendizaje, viene con un montón de recursos para ayudarte a empezar. Algunas de las mejores plataformas de aprendizaje son la página de documentación de Bootstrap y los foros centrados en IT como Stack Overflow.
+        Esto hace que sea una buena herramienta para las personas que no tienen un alto conocimiento en HTML, CSS y JavaScript. Los desarrolladores especializados en estos lenguajes no lo suelen utilizar debido a alguna de las desventajas comentadas como el ancho de banda y el código menos legible.
+    </p>
+
+    <h4>Experiencia personal y sugerencias</h4>
+    <form name="opinion">
+		<p> <label for="email">Correo electrónico:</label> <input id="email" type="email"> </p>
+
+
+		<fieldset>
+			<legend>Selecciona los estándares/lenguajes con los que estás familiarizado:</legend>
+		
+			  <p><input type="checkbox" id="HTML">
+			  <label for="HTML">HTML</label></p>
+		  
+              <p><input type="checkbox" id="CSS">
+			  <label for="CSS">CSS</label></p>
+		  
+              <p><input type="checkbox" id="JavaScript">
+			  <label for="JavaScript">JavaScript</label></p>
+		  
+              <p><input type="checkbox" id="XML">
+			  <label for="XML">XML</label></p>
+		
+		</fieldset>
+
+		<p> <label for="interes">En un rango de 0 a 10, interés por el desarrollo Web: </label>
+			<input type="range" id="interes" min="0" max="10"></p>
+
+        <fieldset>
+            <legend>¿Has usado alguna vez Boostrap?</legend>
+        
+            <p>  <input type="radio" id="respuestaPositiva" name="Bootstrap" value="Sí">
+                <label for="respuestaPositiva">Sí</label></p>
+            
+                <p><input type="radio" id="respuestaNegativa" name="Bootstrap" value="No" checked>
+                <label for="respuestaNegativa">No</label></p>
+            
+        </fieldset>
+
+		<p><label for="opinion">En caso de que haya usado Bootstrap, nos interesa saber su opinión acerca del framework:</label></p>
+
+        <p><textarea id="opinion" name="opinion"
+					  rows="5" cols="33">Escriba aquí su opinión</textarea></p>
+
+		<p><input type="reset" value="Borrar respuestas"></p>
+		<p><input type="submit" value="Enviar respuestas"> </p>
+	</form>
+
+
+    <footer>
+        <p>Paula Suárez Prieto, UO269745</p>
+    </footer>
+</body>
+</html>
