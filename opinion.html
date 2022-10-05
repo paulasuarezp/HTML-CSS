@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+  
+    <meta charset="UTF-8" />
+
+    <meta name ="author" content ="Paula Suárez Prieto" />
+    <meta name ="description" content ="Características y datos de interés sobre el framework Bootstrap" />
+    <meta name ="keywords" content ="Bootstrap, css, estilo, html, web, diseño, frontend, front-end, JS, javascript" />
+
+
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+
+    <title>Bootstrap - Experiencia y opinión personal</title>  
+    
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+
+</head>
+
+<body>
+    <header>
+        <h1>Bootstrap</h1>
+        <nav>
+            <a title="Inicio" accesskey="I" tabindex="1" href= "index.html">Inicio</a>
+            <a title="Historia y versiones" accesskey="H" tabindex="2" href= "historia.html">Historia y versiones</a>
+            <a title="Contenido y primeros pasos" accesskey="C" tabindex="3" href= "contenido.html">Contenido y primeros pasos</a>
+            <a title="Ventajas y desventajas" accesskey="V" tabindex="4" href= "ventajasDesventajas.html">Ventajas y desventajas</a>
+            <a title="Experiencia y opinión personal" accesskey="O" tabindex="5" href= "opinion.html">Experiencia y opinión personal</a>
+        </nav>
+    </header>
+
+    <main>
+
+    <h2>Experiencia y opinión personal</h2>
+
+    <p> Nos interesa saber qué experiencia tienes en diseño y estándares para la Web, por ello te pedimos que 
+        cumplimentes el siguiente formulario:
+    </p>
+    
+    <form name="opinion">
+		<p> <label for="email">Correo electrónico:</label> <input id="email" type="email"/> </p>
+
+
+		<fieldset>
+			<legend>Selecciona los estándares/lenguajes con los que estás familiarizado:</legend>
+		
+			  <p><input type="checkbox" id="HTML"/>
+			  <label for="HTML">HTML</label></p>
+		  
+              <p><input type="checkbox" id="CSS"/>
+			  <label for="CSS">CSS</label></p>
+		  
+              <p><input type="checkbox" id="JavaScript"/>
+			  <label for="JavaScript">JavaScript</label></p>
+		  
+              <p><input type="checkbox" id="XML"/>
+			  <label for="XML">XML</label></p>
+		
+		</fieldset>
+
+		<p> <label for="interes">En un rango de 0 a 10, interés por el desarrollo Web: </label>
+			<input type="range" id="interes" min="0" max="10"/></p>
+
+        <fieldset>
+            <legend>¿Has usado alguna vez Boostrap?</legend>
+        
+            <p>  <input type="radio" id="respuestaPositiva" name="Bootstrap" value="Sí"/>
+                <label for="respuestaPositiva">Sí</label></p>
+            
+                <p><input type="radio" id="respuestaNegativa" name="Bootstrap" value="No" checked/>
+                <label for="respuestaNegativa">No</label></p>
+            
+        </fieldset>
+
+		<p><label for="opinion">En caso de que haya usado Bootstrap, nos interesa saber su opinión acerca del framework:</label></p>
+
+        <p><textarea id="opinion" name="opinion"
+					  rows="5" cols="33">Escriba aquí su opinión</textarea></p>
+
+		<p><input type="reset" value="Borrar respuestas"/></p>
+		<p><input type="submit" value="Enviar respuestas"/> </p>
+	</form>
+
+    </main>
+
+    <footer>
+        <p>Paula Suárez Prieto, UO269745</p>
+    </footer>
+</body>
+</html>
