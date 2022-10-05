@@ -3,31 +3,37 @@
 <html lang="es">
 <head>
     
-    <meta charset="UTF-8" >
+    <meta charset="UTF-8" />
 
-    <meta name ="author" content ="Paula Suárez Prieto" >
-    <meta name ="description" content ="Contenido y pequeño ejemplo de uso del framework Bootstrap" >
-    <meta name ="keywords" content ="Bootstrap, css, estilo, html, web, diseño, JS, javascript, ejemplos, uso, plantillas" >
+    <meta name ="author" content ="Paula Suárez Prieto" />
+    <meta name ="description" content ="Contenido y pequeño ejemplo de uso del framework Bootstrap" />
+    <meta name ="keywords" content ="Bootstrap, css, estilo, html, web, diseño, JS, javascript, ejemplos, uso, plantillas" />
 
     
-    <meta name ="viewport" content ="width=device-width, initial scale=1.0" >
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
 
     <title>Bootstrap - Contenido y primeros pasos</title>  
     
-    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" >
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
 
 </head>
 
 <body>
-    <nav>
-        <a title="Inicio" accesskey="I" tabindex="1" href= "index.html">Inicio</a>
-        <a title="Historia y versiones" accesskey="H" tabindex="2" href= "historia.html">Historia y versiones</a>
-        <a title="Contenido y primeros pasos" accesskey="C" tabindex="3" href= "contenido.html">Contenido y primeros pasos</a>
-        <a title="Ventajas y desventajas" accesskey="V" tabindex="4" href= "ventajasDesventajas.html">Ventajas y desventajas</a>
-    </nav>
+    <header>
+        <h1>Bootstrap</h1>
+        <nav>
+            <a title="Inicio" accesskey="I" tabindex="1" href= "index.html">Inicio</a>
+            <a title="Historia y versiones" accesskey="H" tabindex="2" href= "historia.html">Historia y versiones</a>
+            <a title="Contenido y primeros pasos" accesskey="C" tabindex="3" href= "contenido.html">Contenido y primeros pasos</a>
+            <a title="Ventajas y desventajas" accesskey="V" tabindex="4" href= "ventajasDesventajas.html">Ventajas y desventajas</a>
+        </nav>
+    </header>
 
-    <h1>Contenidos de Bootstrap y guía para comenzar</h1>
-    <h2>Explicación del contenido y código fuente</h2>
+    <main>
+    <h2>Contenidos de Bootstrap y guía para comenzar</h2>
+
+    <section>
+    <h3>Explicación del contenido y código fuente</h3>
     <p>Al decargar Bootstrap encontramos archivos compilados para un uso rápido en casi cualquier proyecto web. 
         Nos proporciona CSS y JS compilados ( bootstrap.*), así como CSS y JS compilados y minimizados ( bootstrap.min.*). 
         Los archivos JS incluidos ( bootstrap.bundle.jsy minificados bootstrap.bundle.min.js) incluyen Popper .</p>
@@ -93,7 +99,8 @@
     </table>
 
     <p>
-        Del mismo modo, tenemos opciones para incluir parte o la totalidad de JavaScript compilado.</p>
+        Del mismo modo, tenemos opciones para incluir parte o la totalidad de JavaScript compilado.
+    </p>
    
     <table>
 
@@ -121,7 +128,7 @@
     
     <p>La descarga del código fuente de Bootstrap incluye los archivos compilados de CSS y JavaScript, junto con la fuente Sass, JavaScript y la documentación. Más específicamente, incluye lo siguiente y más:</p>
 
-    <img alt="Esquema de los componentes" src="multimedia/imagenes/esquema_componentes.png">
+    <img alt="Esquema de los componentes" src="multimedia/imagenes/esquema_componentes.png"/>
        
     
 
@@ -129,7 +136,9 @@
         Los scss/ y js/ son el código fuente de nuestro CSS y JavaScript. La carpeta dist/ incluye todo lo que se enumera en la sección anterior. La carpeta site/content/docs/ incluye la documentación, incluidos ejemplos en vivo del uso de Bootstrap.
     </p>
 
+    </section>
 
+    <section>
     <h3>¿Cómo utilizar Bootstrap? Inicio Rápido</h3>
 
     <p>Bootstrap te brinda un conjunto de elementos pre-diseñados listos para usarlos como botones, formularios, cards, etc. Todos ellos poseen una clase CSS asignada por Bootstrap la cual llama a una o muchas propiedades CSS y le da un estilo predeterminado.</p>
@@ -141,12 +150,14 @@
 
     <ol>
         <li>Creamos un archivo "index.html" en la raíz del proyecto con el siguiente contenido:<br>
-            <img alt="Primera versión del index.html" src="multimedia/imagenes/codigo_1.png">
+            <img alt="Primera versión del index.html" src="multimedia/imagenes/codigo_1.png"/>
         </li>
         <li>Incluímos el CSS y JS de Bootstrap. Para ello introducimos las dos siguientes líneas de código como se puede ver en la imagen:<br>
-            <img alt="Segunda versión del index.html" src="multimedia/imagenes/codigo_2.png">
+            <img alt="Segunda versión del index.html" src="multimedia/imagenes/codigo_2.png"/>
         </li>
-        <li>¡Hola Mundo! Si abres el "index.html" en un navegador podrás ver el resultado. A partir de ahora puede comenzar a crear su propio diseño con Bootstrap , agregando docenas de componentes y utilizando los ejemplos oficiales.</li>
+        <li>¡Hola Mundo! Si abres el "index.html" en un navegador podrás ver el resultado. A partir de ahora puede comenzar a crear su propio diseño con Bootstrap , agregando docenas de componentes y utilizando los ejemplos oficiales.
+
+        </li>
     </ol>
 
     <p>A continuación, un tutorial que muestra el resultado de la ejecución de los pasos detallados anteriormente:</p>
@@ -154,16 +165,16 @@
     <video controls>
 
         <source src="multimedia/videos/tutorial_hello_world.mp4"
-                type="video/mp4">
+                type="video/mp4"/>
         
     </video>
     <p>
         La página oficial de Bootstrap ofrece varias plantillas de ejemplo con el código fuente, estas se pueden consultar en el siguiente <a href="https://getbootstrap.com/docs/5.2/examples/">enlace</a>.
     </p>
-    
+    </section>
     
 
-
+    </main> 
     <footer>
         <p>Paula Suárez Prieto, UO269745</p>
     </footer>
