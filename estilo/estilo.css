@@ -3,5 +3,131 @@
 
       Descripción de los estilos que contiene
 ****************************************************/
+/*Especificidad: 001*/
+body {
+      font-family: Arial, Helvetica, sans-serif, sans-serif;
+      color: #4D4D4D;
+      background-color: #FFFFFF;
+      text-align: justify;
+      margin: 1em;
+      }
 
+/*Especificidad: 001*/
+h1 {
+      color: #FFFFFF;    
+      background-color:#712cf9; 
+      padding: 1em; 
+      text-align: center;  
+      font-size: 4em;
+      }
 
+/*Especificidad: 001*/
+h2 {
+      font-size: 2em;
+}
+
+/*Especificidad: 001*/
+h3 {
+      font-size: 1.5em;
+}
+
+/*Especificidad: 001*/
+nav  {
+      border: 0.125em solid #712cf9;
+      border-radius: 1em;
+      padding: 1em;
+}
+
+/*Especificidad: 002*/
+nav a {
+      font-weight: bold;
+      font-size: 1em;
+      padding-right: 2em;
+      padding-left: 2em;
+      margin:1em;
+}
+
+/*Especificidad: 012*/
+nav a:visited {
+      color: #712cf9;
+      background: #FFFFFF;
+}
+
+/*Especificidad: 012, Especificidad: 012*/
+nav a:hover, nav a:focus {
+      background: #712cf9;
+      color: #FFFFFF;
+}
+
+/*Especificidad: 001*/
+main {
+      margin-left: 4em;
+      margin-right: 4em;
+}
+
+/*Especificidad: 001*/
+a {
+      outline: none;
+      text-decoration: none;
+}
+
+/*Especificidad: 011*/
+a:link {
+      color: #712cf9;
+      background: #FFFFFF;
+}
+
+/*Especificidad: 011*/
+a:visited {
+      color: #361970;
+      background: #FFFFFF;
+}
+
+/*Especificidad: 011, Especificidad: 011, Especificidad: 011*/
+a:focus , a:hover, a:active {
+      border-bottom: 0.125em solid;
+      background: #f2edfd;
+      color: #361970;
+}
+
+/*Especificidad: 001*/
+ul {
+      list-style-type: square; 
+}
+
+/*Especificidad: 001*/
+table {
+      border-collapse: collapse;
+      border: 0.125em solid #712cf9;
+      width: 60%;
+}
+
+/*Especificidad: 001, Especificidad: 001*/
+th, td {
+      text-align: left;
+      padding: 1em;
+}
+
+/*Especificidad: 011*/
+tr:nth-child(even){
+      background-color: #f2edfd;
+      color: #4D4D4D;
+}
+
+/*Especificidad: 001*/
+th {
+      background-color: #712cf9;
+      color: white;
+}
+
+/*Especificidad: 001*/
+video {
+      width: 60%;
+}
+
+/*Especificidad: 001*/
+footer {
+      text-align: center;
+}
+
+  

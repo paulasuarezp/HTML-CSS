@@ -26,13 +26,25 @@ main > section:nth-child(2n+2){
     
     /*Selecciona los párrafos de las secciones*/
     /*/*Especificidad: 012*/
-    main > section:nth-child(2n+1){
+main > section:nth-child(2n+1){
       background-color:#ee33ff; 
-    }
+}
     
 /*Especificidad: 001*/
 footer {   
       background-color:#74ff33; 
 }
     
+/*Especificidad: 001*/
+a {
+      display:inline;
+}
+
+/*Especificidad: 011*/
+input[type="submit"], input[type="reset"]{
+      padding: 0.5em;
+      margin: 0.5em;
+}
+
+
 

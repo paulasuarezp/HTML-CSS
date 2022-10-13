@@ -1,0 +1,25 @@
+/**************************************************** 
+      Paula Suárez Prieto - UO269745
+
+      Hoja de estilos que define el layout de la página Web
+
+****************************************************/
+
+/*Especificidad: 001*/
+body {
+      display: grid;
+      grid-template-areas: 
+      "encabezado encabezado encabezado"
+      "contenido contenido contenido"
+      "pie pie pie";
+      
+}
+
+/*Especificidad: 001*/
+header { grid-area: encabezado; }
+
+/*Especificidad: 001*/
+main { grid-area: contenido; }
+
+/*Especificidad: 001*/
+footer { grid-area: pie; }
