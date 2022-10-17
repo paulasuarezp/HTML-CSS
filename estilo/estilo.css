@@ -1,7 +1,12 @@
 /**************************************************** 
       Paula Suárez Prieto - UO269745
 
-      Descripción de los estilos que contiene
+En esta hoja de estilos se definen:
+      - Los colores que forman la página Web
+      - El tipo de fuente utilizada y su tamaño
+      - El estilo de la barra de navegación
+      - Se personalizan los enlaces (elemento <a>)
+      - Se define el estilo de la tabla
 ****************************************************/
 /*Especificidad: 001*/
 body {
@@ -130,4 +135,3 @@ footer {
       text-align: center;
 }
 
-  
