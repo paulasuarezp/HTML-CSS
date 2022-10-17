@@ -13,8 +13,8 @@ body {
       font-family: Arial, Helvetica, sans-serif, sans-serif;
       color: #4D4D4D;
       background-color: #FFFFFF;
-      text-align: justify;
-      margin: 1em;
+      text-align: left;
+      margin: 1em 1em 1em 1em;
       }
 
 /*Especificidad: 001*/
@@ -41,6 +41,7 @@ nav  {
       border: 0.125em solid #712cf9;
       border-radius: 1em;
       padding: 1em;
+      margin: auto;
 }
 
 /*Especificidad: 002*/
