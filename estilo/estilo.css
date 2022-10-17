@@ -70,6 +70,7 @@ main {
       margin-right: 4em;
 }
 
+
 /*Especificidad: 001*/
 a {
       outline: none;
@@ -78,21 +79,21 @@ a {
 
 /*Especificidad: 011*/
 a:link {
+      /*Hereda el background-color de body*/
       color: #712cf9;
-      background: #FFFFFF;
 }
 
 /*Especificidad: 011*/
 a:visited {
+      /*Hereda el background-color de body*/
       color: #361970;
-      background: #FFFFFF;
 }
 
 /*Especificidad: 011, Especificidad: 011, Especificidad: 011*/
 a:focus , a:hover, a:active {
       border-bottom: 0.125em solid;
-      background: #f2edfd;
       color: #361970;
+      /*Hereda el background-color de body*/
 }
 
 /*Especificidad: 001*/
@@ -102,7 +103,6 @@ ul {
 
 /*Especificidad: 001*/
 table {
-      border-collapse: collapse;
       border: 0.125em solid #712cf9;
       width: 60%;
 }
@@ -111,6 +111,7 @@ table {
 th, td {
       text-align: left;
       padding: 1em;
+      border-collapse: collapse;
 }
 
 /*Especificidad: 011*/
@@ -127,7 +128,14 @@ th {
 
 /*Especificidad: 001*/
 video {
-      width: 60%;
+      width: 80%;
+      height: 80%;
+}
+
+/*Especificidad: 001*/
+img {
+      width: 50%;
+      height: 50%;
 }
 
 /*Especificidad: 001*/

@@ -44,55 +44,68 @@
    
     <table>
 
-        <thead>
-            <tr>
-                <th>Archivo CSS</th>
-                <th>Diseño</th>
-                <th>Contenido</th>
-                <th>Componentes</th>
-                <th>Utilidades</th>
-            </tr>
-        </thead>
+        <caption>CSS compilado</caption> 
+
         <tbody>
             <tr>
-                <td>bootstrap.css<br>
+                <th scope="col" id="archivoCSS">Archivo CSS</th>
+                <th scope="col" id="diseño">Diseño</th>
+                <th scope="col" id="contenido">Contenido</th>
+                <th scope="col" id="componentes">Componentes</th>
+                <th scope="col" id="utilidades">Utilidades</th>
+            </tr>
+
+            <tr>
+                <th scope="row" id="bootstrap" headers="archivoCSS">
+                    bootstrap.css<br>
                     bootstrap.min.css<br>
                     bootstrap.rtl.css<br>
-                    bootstrap.rtl.min.css</td>
-                <td>Incluido</td>
-                <td>Incluido</td>
-                <td>Incluido</td>
-                <td>Incluido</td>
+                    bootstrap.rtl.min.css
+                </th>
+            
+                <td headers="bootstrap diseño">Incluido</td>
+                <td headers="bootstrap contenido">Incluido</td>
+                <td headers="bootstrap componentes">Incluido</td>
+                <td headers="bootstrap utilidades">Incluido</td>
             </tr>
             <tr>
-                <td>bootstrap-grid.css<br>
+                <th scope="row" id="bootstrap-grid" headers="archivoCSS">
+                    bootstrap-grid.css<br>
                     bootstrap-grid.rtl.css<br>
                     bootstrap-grid.min.css<br>
-                    bootstrap-grid.rtl.min.css</td>
-                <td>Solo sistema de rejilla</td>
-                <td>-</td>
-                <td>-</td>
-                <td>Solo utilidad flexible</td>
+                    bootstrap-grid.rtl.min.css
+                </th>
+
+                <td headers="bootstrap-grid diseño">Solo sistema de rejilla</td>
+                <td headers="bootstrap-grid contenido">-</td>
+                <td headers="bootstrap-grid componentes">-</td>
+                <td headers="bootstrap-grid utilidades">Solo utilidad flexible</td>
             </tr>
+
+
             <tr>
-                <td>bootstrap-utilities.css<br>
+                <th scope="row" id="bootstrap-utilities" headers="archivoCSS" >
+                    bootstrap-utilities.css<br>
                     bootstrap-utilities.rtl.css<br>
                     bootstrap-utilities.min.css<br>
-                    bootstrap-utilities.rtl.min.css</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>Incluido</td>
+                    bootstrap-utilities.rtl.min.css
+                </th>
+                <td headers="bootstrap-utilities diseño">-</td>
+                <td headers="bootstrap-utilities contenido">-</td>
+                <td headers="bootstrap-utilities componentes">-</td>
+                <td headers="bootstrap-utilities utilidades">Incluido</td>
             </tr>
             <tr>
-                <td>bootstrap-reboot.css<br>
+                <th scope="row" id="bootstrap-reboot" headers="archivoCSS">
+                    bootstrap-reboot.css<br>
                     bootstrap-reboot.rtl.css<br>
                     bootstrap-reboot.min.css<br>
-                    bootstrap-reboot.rtl.min.css</td>
-                <td>-</td>
-                <td>Solo reiniciar</td>
-                <td>-</td>
-                <td>-</td>
+                    bootstrap-reboot.rtl.min.css
+                </th>
+                <td headers="bootstrap-reboot diseño">-</td>
+                <td headers="bootstrap-reboot contenido">Solo reiniciar</td>
+                <td headers="bootstrap-reboot componentes">-</td>
+                <td headers="bootstrap-reboot utilidades">-</td>
             </tr>
             
         </tbody>
@@ -104,23 +117,24 @@
     </p>
    
     <table>
-
-        <thead>
-            <tr>
-                <th>Archivos JS</th>
-                <th>Popper</th>
-            </tr>
-        </thead>
+        <caption>JavaScript compilado</caption> 
         <tbody>
             <tr>
-                <td>bootstrap.bundle.js<br>
-                    bootstrap.bundle.min.js</td>
-                <td>Incluido</td>
+                <th scope="col" id="archivoJS">Archivo JS</th>
+                <th scope="col" id="popper">Popper</th>
+            </tr>
+
+            <tr>
+                <th scope="row" id="bootstrap-bundle-js" headers="archivoJS">
+                    bootstrap.bundle.js<br>
+                    bootstrap.bundle.min.js
+                </th>
+                <td headers="bootstrap-bundle-js popper">Incluido</td>
             </tr>
             <tr>
-                <td>bootstrap.js<br>
-                    bootstrap.min.js</td>
-                <td>-</td>
+                <th scope="row" id="bootstrap-js" headers="archivoJS"> bootstrap.js<br>
+                    bootstrap.min.js</th>
+                <td headers="bootstrap-js popper">-</td>
             </tr>
         </tbody>
 
@@ -128,11 +142,6 @@
 
     
     <p>La descarga del código fuente de Bootstrap incluye los archivos compilados de CSS y JavaScript, junto con la fuente Sass, JavaScript y la documentación. Más específicamente, incluye lo siguiente y más:</p>
-
-    <img alt="Esquema de los componentes" src="multimedia/imagenes/esquema_componentes.png"/>
-       
-    
-
     <p>
         Los scss/ y js/ son el código fuente de nuestro CSS y JavaScript. La carpeta dist/ incluye todo lo que se enumera en la sección anterior. La carpeta site/content/docs/ incluye la documentación, incluidos ejemplos en vivo del uso de Bootstrap.
     </p>
@@ -150,10 +159,10 @@
     <p>Para realizar una demostración sencilla de cómo se utiliza vamos a crear un "Hola Mundo". Los pasos a seguir son los siguientes: </p>
 
     <ol>
-        <li>Creamos un archivo "index.html" en la raíz del proyecto con el siguiente contenido:<br>
+        <li>Para comenzar, debemos de crear un un archivo "index.html" en la raíz del proyecto con el siguiente contenido:
             <img alt="Primera versión del index.html" src="multimedia/imagenes/codigo_1.png"/>
         </li>
-        <li>Incluímos el CSS y JS de Bootstrap. Para ello introducimos las dos siguientes líneas de código como se puede ver en la imagen:<br>
+        <li>Incluímos el CSS y JS de Bootstrap. Para ello introducimos las dos siguientes líneas de código como se puede ver en la imagen:
             <img alt="Segunda versión del index.html" src="multimedia/imagenes/codigo_2.png"/>
         </li>
         <li>¡Hola Mundo! Si abres el "index.html" en un navegador podrás ver el resultado. A partir de ahora puede comenzar a crear su propio diseño con Bootstrap , agregando docenas de componentes y utilizando los ejemplos oficiales.
