@@ -8,15 +8,18 @@
 /*Especificidad: 001*/
 body {
       display: grid;
+      grid-template-columns: 1fr 8fr;
       grid-template-areas: 
-      "encabezado encabezado encabezado"
-      "contenido contenido contenido"
-      "pie pie pie";
+      "encabezado encabezado"
+      "menu contenido"
+      "pie pie";
       
 }
 
 /*Especificidad: 001*/
 header { grid-area: encabezado; }
+
+nav{grid-area: menu;}
 
 /*Especificidad: 001*/
 main { grid-area: contenido; }
