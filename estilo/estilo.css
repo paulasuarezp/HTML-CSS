@@ -19,9 +19,10 @@ body {
       
 /*Especificidad: 001*/
 main {
-      margin-left: 4em;
-      margin-right: 4em;
+      margin-left: 1em;
+      margin-right: 1em;
 }
+
 
 /*Especificidad: 001*/
 h1 {
