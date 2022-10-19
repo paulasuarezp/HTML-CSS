@@ -104,7 +104,7 @@ nav a:hover, nav a:focus {
 /*Especificidad: 001*/
 table {
       border: 0.125em solid #712cf9;
-      width: 60%;
+      width: 70%;
 }
 
 /*Especificidad: 001, Especificidad: 001*/
@@ -130,6 +130,6 @@ th {
 
 /*Especificidad: 001*/
 video {
-      width: 60%;
-      height: 60%;
+      width: 70%;
+      height: 70%;
 }
