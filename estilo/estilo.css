@@ -27,7 +27,6 @@ footer {
       text-align: center;
 }
 
-
 /*Especificidad: 001*/
 h1 {
       color: #FFFFFF;    
@@ -46,7 +45,6 @@ h2 {
 h3 {
       font-size: 1.5em;
 }
-
 
 /*Especificidad: 001*/
 a {
@@ -94,7 +92,6 @@ nav a:hover, nav a:focus {
       color: #FFFFFF;
 }
 
-
 /*Especificidad: 001*/
 table {
       border: 0.125em solid #712cf9;
@@ -119,8 +116,6 @@ th {
       background-color: #712cf9;
       color: white;
 }
-
-
 
 /*Especificidad: 001*/
 video {
