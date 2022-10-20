@@ -74,15 +74,9 @@ a:focus , a:hover, a:active {
 }
 
 /*Especificidad: 002*/
-nav img {
-      padding-left: 3em;
- }
-
-/*Especificidad: 002*/
 nav a {
       font-weight: bold;
       font-size: 1em;
-      display: block;
       border: 0.125em solid #712cf9;
       border-radius: 1em;
       padding: 1em;

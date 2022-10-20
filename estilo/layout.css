@@ -19,10 +19,16 @@ body {
 /*Especificidad: 001*/
 header { grid-area: encabezado; }
 
-nav{grid-area: menu;}
-
 /*Especificidad: 001*/
 main { grid-area: contenido; }
 
 /*Especificidad: 001*/
+nav{
+      grid-area: menu;
+      display:flex;
+      flex-direction: column;
+}
+
+/*Especificidad: 001*/
 footer { grid-area: pie; }
+
