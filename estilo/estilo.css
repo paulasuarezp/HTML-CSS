@@ -12,7 +12,6 @@ body {
       font-family: Arial, Helvetica, sans-serif, sans-serif;
       color: #4D4D4D;
       background-color: #FFFFFF;
-      text-align: left;
 }
 
       
@@ -23,16 +22,10 @@ main {
 }
 
 /*Especificidad: 001*/
-footer {
-      text-align: center;
-}
-
-/*Especificidad: 001*/
 h1 {
       color: #FFFFFF;    
       background-color:#712cf9; 
-      padding: 1em; 
-      text-align: center;  
+      padding: 1em;   
       font-size: 4em;
       }
 
